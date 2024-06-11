@@ -1,0 +1,35 @@
+{
+  "name": "monorepo-npm-ts-vite-react-tailwind",
+  "version": "1.0.0",
+  "description": "Example project using monorepo, npm, ts, vite, react, and tailwind",
+  "homepage": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind#readme",
+  "bugs": {
+    "url": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind.git"
+  },
+  "license": "MIT",
+  "author": "Tyler J Cvetan",
+  "main": "index.js",
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "lint-staged": {
+    "package.json": "npx sort-package-json"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.6",
+    "sort-package-json": "^2.10.0"
+  },
+  "engines": {
+    "node": "^20.14.0",
+    "npm": "^10.7.0"
+  }
+}
