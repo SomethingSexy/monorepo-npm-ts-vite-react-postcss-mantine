@@ -17,3 +17,4 @@
 - [ ] Semantic Release publish package to Github Packages
 - [ ] Linting
 - [ ] Testing
+- [ ] App deployment models
