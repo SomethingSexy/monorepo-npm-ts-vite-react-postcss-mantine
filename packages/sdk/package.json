@@ -4,10 +4,14 @@
   "description": "",
   "license": "MIT",
   "author": "Tyler J Cvetan",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "swc ./src -d dist --strip-leading-paths",
+    "build:watch": "swc ./src -d dist -w  --strip-leading-paths",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
   },
   "release": {
     "branches": [
@@ -16,6 +20,8 @@
     "extends": "semantic-release-monorepo"
   },
   "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.5.28",
     "typescript": "^5.4.5"
   }
 }

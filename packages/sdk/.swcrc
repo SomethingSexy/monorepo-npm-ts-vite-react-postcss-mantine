@@ -1,9 +1,16 @@
 {
     "jsc": {
       "parser": {
-        "syntax": "typescript"
+        "syntax": "typescript",
+        "tsx": true
       },
-      "target": "esnext"
+      "target": "esnext",
+      "baseUrl": "src",
+      "transform": {
+        "react": {
+            "runtime": "automatic"
+        }
+      }
     },
     "module": {
       "type": "es6"
