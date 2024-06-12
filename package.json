@@ -14,7 +14,8 @@
   "author": "Tyler J Cvetan",
   "main": "index.js",
   "workspaces": [
-    "packages/**"
+    "packages/sdk",
+    "packages/app-core"
   ],
   "scripts": {
     "prepare": "husky",

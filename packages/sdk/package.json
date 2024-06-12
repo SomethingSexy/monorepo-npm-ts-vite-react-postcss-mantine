@@ -1,0 +1,21 @@
+{
+  "name": "@somethingsexy/sdk",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Tyler J Cvetan",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "extends": "semantic-release-monorepo"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
