@@ -18,10 +18,12 @@
   ],
   "scripts": {
     "prepare": "husky",
+    "release": "npm run semantic-release -e semantic-release-monorepo -w",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "lint-staged": {
-    "package.json": "npx sort-package-json"
+    "package.json": "npx sort-package-json",
+    "packages/**/package.json": "npx sort-package-json"
   },
   "devDependencies": {
     "husky": "^9.0.11",
