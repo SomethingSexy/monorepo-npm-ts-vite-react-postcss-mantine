@@ -1,6 +1,7 @@
 {
   "name": "@somethingsexy/sdk",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "license": "MIT",
   "author": "Tyler J Cvetan",

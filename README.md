@@ -7,7 +7,7 @@
 
 ## What this includes
 
-- [x] Monorepo via NPM workspaces
+- [x] Monorepo via NPM workspaces.  This does not publish to any package registry yet.  The app-core pulls from sdk locally.
 - [x] TypeScript
 - [x] Vite
 - [x] React
