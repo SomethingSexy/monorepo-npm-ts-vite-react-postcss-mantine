@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "release": "npm run semantic-release -e semantic-release-monorepo -w",
+    "release": "npm run release -ws",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "lint-staged": {
@@ -28,6 +28,8 @@
   "devDependencies": {
     "husky": "^9.0.11",
     "lint-staged": "^15.2.6",
+    "semantic-release": "^24.0.0",
+    "semantic-release-monorepo": "^8.0.2",
     "sort-package-json": "^2.10.0"
   },
   "engines": {
