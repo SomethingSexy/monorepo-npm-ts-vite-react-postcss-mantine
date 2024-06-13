@@ -1,4 +1,4 @@
-# monorepo-npm-ts-vite-react-tailwind
+# monorepo-npm-ts-vite-react-postcss-maintine
 
 ## Prerequisites
 * Node
@@ -11,7 +11,7 @@
 - [x] TypeScript
 - [x] Vite
 - [x] React
-- [ ] Tailwind
+- [ ] ~~Tailwind~~ Moving to basic PostCSS with Mantine
 - [ ] UI Library
 - [x] Semantic Release
 - [ ] Semantic Release publish package to Github Packages
