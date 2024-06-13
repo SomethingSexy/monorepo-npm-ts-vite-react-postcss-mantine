@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react'
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
-import { Application, AppShell } from "@somethingsexy/sdk";
+import { Application, AppShell } from '@somethingsexy/sdk'
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <Application>
@@ -13,7 +13,7 @@ function App() {
         header={{ height: 60 }}
         navbar={{
           width: 300,
-          breakpoint: "sm",
+          breakpoint: 'sm',
           // collapsed: { mobile: !opened },
         }}
         padding="md"
@@ -34,7 +34,7 @@ function App() {
       </AppShell>
       );
     </Application>
-  );
+  )
 }
 
-export default App;
+export default App

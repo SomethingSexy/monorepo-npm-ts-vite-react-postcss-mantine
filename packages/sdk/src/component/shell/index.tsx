@@ -1,1 +1,1 @@
-export { AppShell } from "./Shell.js";
+export { AppShell } from './Shell.js'
