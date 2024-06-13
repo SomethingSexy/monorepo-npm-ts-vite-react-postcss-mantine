@@ -1,6 +1,6 @@
 import { createTheme, MantineProvider } from "@mantine/core";
-import "@mantine/core/styles.css";
 import { type PropsWithChildren } from "react";
+import "@mantine/core/styles.css";
 
 // Your theme configuration is merged with default theme
 const theme = createTheme({
