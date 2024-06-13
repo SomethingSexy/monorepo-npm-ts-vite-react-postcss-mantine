@@ -1,19 +1,19 @@
 {
-    "jsc": {
-      "parser": {
-        "syntax": "typescript",
-        "tsx": true
-      },
-      "target": "esnext",
-      "baseUrl": "src",
-      "transform": {
-        "react": {
-            "runtime": "automatic"
-        }
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "target": "esnext",
+    "baseUrl": "src",
+    "transform": {
+      "react": {
+        "runtime": "automatic"
       }
-    },
-    "module": {
-      "type": "es6"
-    },
-    "sourceMaps": true
-  }
+    }
+  },
+  "module": {
+    "type": "es6"
+  },
+  "sourceMaps": true
+}

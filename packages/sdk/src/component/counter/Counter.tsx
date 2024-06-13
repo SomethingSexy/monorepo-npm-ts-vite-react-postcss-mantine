@@ -1,4 +1,3 @@
-
 export const Counter = () => {
-  return <div>Foo</div>
-}
+  return <div>Foo</div>;
+};

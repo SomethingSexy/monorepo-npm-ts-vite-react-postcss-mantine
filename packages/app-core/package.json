@@ -7,6 +7,7 @@
     "build": "tsc && vite build",
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "pretty:fix": "npx prettier . --write",
     "preview": "vite preview",
     "release": "npx semantic-release"
   },
@@ -30,6 +31,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "3.3.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }

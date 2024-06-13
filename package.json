@@ -19,12 +19,14 @@
   ],
   "scripts": {
     "prepare": "husky",
+    "pretty:fix": "npm run pretty:fix -ws",
     "release": "npm run release -ws",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "lint-staged": {
     "package.json": "npx sort-package-json",
-    "packages/**/package.json": "npx sort-package-json"
+    "packages/**/package.json": "npx sort-package-json",
+    "**/*": "npm run pretty:fix"
   },
   "devDependencies": {
     "husky": "^9.0.11",

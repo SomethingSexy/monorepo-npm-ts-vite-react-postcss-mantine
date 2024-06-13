@@ -11,6 +11,7 @@
   "scripts": {
     "build": "swc ./src -d dist --strip-leading-paths",
     "build:watch": "swc ./src -d dist -w  --strip-leading-paths",
+    "pretty:fix": "npx prettier . --write",
     "release": "npx semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc --noEmit"
@@ -21,9 +22,14 @@
     ],
     "extends": "semantic-release-monorepo"
   },
+  "dependencies": {
+    "@mantine/core": "^7.10.1",
+    "@mantine/hooks": "^7.10.1"
+  },
   "devDependencies": {
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.5.28",
+    "prettier": "3.3.2",
     "typescript": "^5.4.5"
   }
 }

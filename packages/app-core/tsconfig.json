@@ -20,8 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@somethingsexy/sdk": ["../../packages/sdk/src"],
-    },
+      "@somethingsexy/sdk": ["../../packages/sdk/src"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
