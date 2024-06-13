@@ -16,7 +16,7 @@
 - [x] Semantic Release
 - [ ] Semantic Release publish package to Github Packages
 - [x] Prettier
-- [ ] Linting
+- [x] Linting - eslint
 - [ ] Testing
 - [ ] Common configuration package, eslint, prettier, etc.
 - [ ] App deployment models
@@ -34,3 +34,11 @@ Build SDK
 `npm run build`
 
 ### Applications
+
+Build and run the app in dev mode
+
+`npm run dev`
+
+Build for production
+
+`npm run build`
