@@ -11,9 +11,11 @@
   "scripts": {
     "build": "swc ./src -d dist --strip-leading-paths",
     "build:watch": "swc ./src -d dist -w  --strip-leading-paths",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "pretty:fix": "npx prettier . --write  --ignore-unknown",
     "release": "npx semantic-release",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "type-check": "tsc --noEmit"
   },
   "release": {
@@ -29,6 +31,11 @@
   "devDependencies": {
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.5.28",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
     "prettier": "3.3.2",
     "typescript": "^5.4.5"
   }

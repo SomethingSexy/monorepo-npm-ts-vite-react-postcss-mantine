@@ -1,10 +1,10 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
-import { Application, AppShell } from '@somethingsexy/sdk'
+import { AppShell, Application } from '@somethingsexy/sdk'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <Application>
@@ -32,7 +32,7 @@ function App() {
 
         <AppShell.Main>Main</AppShell.Main>
       </AppShell>
-      );
+      )
     </Application>
   )
 }

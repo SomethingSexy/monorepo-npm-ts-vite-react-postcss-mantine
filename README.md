@@ -12,18 +12,25 @@
 - [x] Vite
 - [x] React
 - [x] ~~Tailwind~~ Moving to basic PostCSS with Mantine
-- [ ] UI Library
+- [x] UI Library - Mantine
 - [x] Semantic Release
 - [ ] Semantic Release publish package to Github Packages
 - [x] Prettier
 - [ ] Linting
 - [ ] Testing
+- [ ] Common configuration package, eslint, prettier, etc.
 - [ ] App deployment models
+  - [ ] ngnix with docker image
+  - [ ] node with docker image
 
 ## Installation
+
+## Usage
+
+### SDK
 
 Build SDK
 
 `npm run build`
 
-## Usage
+### Applications

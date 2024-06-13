@@ -18,6 +18,8 @@
     "packages/app-core"
   ],
   "scripts": {
+    "lint": "npm run lint -ws",
+    "lint:fix": "npm run lint:fix -ws",
     "prepare": "husky",
     "pretty:fix": "npm run pretty:fix -ws",
     "release": "npm run release -ws",
