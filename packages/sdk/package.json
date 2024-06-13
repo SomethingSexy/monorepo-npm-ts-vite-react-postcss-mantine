@@ -11,7 +11,7 @@
   "scripts": {
     "build": "swc ./src -d dist --strip-leading-paths",
     "build:watch": "swc ./src -d dist -w  --strip-leading-paths",
-    "pretty:fix": "npx prettier . --write",
+    "pretty:fix": "npx prettier . --write  --ignore-unknown",
     "release": "npx semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc --noEmit"

@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "pretty:fix": "npx prettier . --write",
+    "pretty:fix": "npx prettier . --write  --ignore-unknown",
     "preview": "vite preview",
     "release": "npx semantic-release"
   },
