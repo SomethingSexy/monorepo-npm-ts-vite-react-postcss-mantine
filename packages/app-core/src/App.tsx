@@ -8,7 +8,6 @@ function App() {
 
   return (
     <Application>
-      return (
       <AppShell
         header={{ height: 60 }}
         navbar={{
@@ -32,7 +31,6 @@ function App() {
 
         <AppShell.Main>Main</AppShell.Main>
       </AppShell>
-      )
     </Application>
   )
 }
