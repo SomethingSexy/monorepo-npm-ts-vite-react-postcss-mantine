@@ -27,6 +27,8 @@
 
 ## Installation
 
+`npm run ci`
+
 ## Usage
 
 ### Deploying
