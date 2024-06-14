@@ -3,7 +3,7 @@
 // import viteLogo from "/vite.svg";
 import { AppShell, Application } from '@somethingsexy/sdk'
 
-function App() {
+export const App = () => {
   // const [count, setCount] = useState(0)
 
   return (
@@ -34,5 +34,3 @@ function App() {
     </Application>
   )
 }
-
-export default App
