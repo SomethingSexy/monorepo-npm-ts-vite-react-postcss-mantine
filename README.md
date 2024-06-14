@@ -18,7 +18,9 @@
 - [x] Prettier
 - [x] Linting - eslint
 - [ ] Testing
-- [ ] Common configuration package, eslint, prettier, etc.
+- [ ] Common configuration package
+  - [x] eslint
+  - [ ] prettier
 - [ ] App deployment models
   - [x] ngnix with docker image
   - [ ] node with docker image
