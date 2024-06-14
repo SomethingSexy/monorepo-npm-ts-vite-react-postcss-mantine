@@ -25,6 +25,8 @@
 - [ ] App deployment models
   - [x] ngnix with docker image
   - [ ] node with docker image
+- [ ] Add types for SDK
+- [ ] React 19 upgrade
 
 ## Installation
 
