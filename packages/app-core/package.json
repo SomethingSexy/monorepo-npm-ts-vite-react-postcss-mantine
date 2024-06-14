@@ -6,9 +6,10 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
-    "lint": "eslint ./src --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint ./src --report-unused-disable-directives --max-warnings 0 --fix",
-    "pretty:fix": "npx prettier . --write  --ignore-unknown",
+    "lint": "eslint ./src --report-unused-disable-directives --max-warnings 0 --no-warn-ignored",
+    "lint:fix": "eslint ./src --report-unused-disable-directives --max-warnings 0 --no-warn-ignored --fix",
+    "pretty": "prettier . --ignore-unknown",
+    "pretty:fix": "npx prettier . --write --ignore-unknown",
     "preview": "vite preview",
     "release": "npx semantic-release"
   },

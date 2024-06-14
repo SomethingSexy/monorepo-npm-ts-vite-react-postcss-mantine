@@ -23,14 +23,18 @@
     "lint": "npm run lint -ws",
     "lint:fix": "npm run lint:fix -ws",
     "prepare": "husky",
+    "pretty": "npm run pretty -ws",
     "pretty:fix": "npm run pretty:fix -ws",
     "release": "npm run release -ws",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "npm run lint && npm run pretty"
   },
   "lint-staged": {
     "package.json": "npx sort-package-json",
     "packages/**/package.json": "npx sort-package-json",
-    "**/*": "npm run pretty:fix"
+    "**/*": [
+      "npm run pretty:fix",
+      "npm run lint:fix"
+    ]
   },
   "devDependencies": {
     "@eslint/js": "^9.4.0",
