@@ -12,6 +12,7 @@
   },
   "license": "MIT",
   "author": "Tyler J Cvetan",
+  "type": "module",
   "main": "index.js",
   "workspaces": [
     "packages/sdk",
@@ -32,11 +33,18 @@
     "**/*": "npm run pretty:fix"
   },
   "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.6",
     "semantic-release": "^24.0.0",
     "semantic-release-monorepo": "^8.0.2",
-    "sort-package-json": "^2.10.0"
+    "sort-package-json": "^2.10.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
   },
   "engines": {
     "node": "^20.14.0",
