@@ -15,6 +15,7 @@
 - [x] UI Library - Mantine
 - [x] Semantic Release
 - [ ] Semantic Release publish package to Github Packages
+- [ ] Semantic Release changelog
 - [x] Prettier
 - [x] Linting - eslint
 - [ ] Testing
