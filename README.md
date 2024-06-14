@@ -20,20 +20,30 @@
 - [ ] Testing
 - [ ] Common configuration package, eslint, prettier, etc.
 - [ ] App deployment models
-  - [ ] ngnix with docker image
+  - [x] ngnix with docker image
   - [ ] node with docker image
 
 ## Installation
 
 ## Usage
 
-### SDK
+### Deploying
+
+Build for production
+
+`npm run build`
+
+Run dev container or run docker compose locally
+
+### Developing
+
+#### SDK
 
 Build SDK
 
 `npm run build`
 
-### Applications
+#### Applications
 
 Build and run the app in dev mode
 

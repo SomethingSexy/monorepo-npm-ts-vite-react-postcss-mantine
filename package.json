@@ -1,14 +1,14 @@
 {
-  "name": "monorepo-npm-ts-vite-react-tailwind",
+  "name": "monorepo-npm-ts-vite-react-postcss-mantine",
   "version": "1.0.0",
-  "description": "Example project using monorepo, npm, ts, vite, react, and tailwind",
-  "homepage": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind#readme",
+  "description": "Example project using monorepo, npm, ts, vite, react, postcss, and mantine",
+  "homepage": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-postcss-mantine#readme",
   "bugs": {
-    "url": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind/issues"
+    "url": "https://github.com/SomethingSexy/monorepo-npm-ts-vite-react-postcss-mantine/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SomethingSexy/monorepo-npm-ts-vite-react-tailwind.git"
+    "url": "git+ssh://git@github.com/SomethingSexy/monorepo-npm-ts-vite-react-postcss-mantine.git"
   },
   "license": "MIT",
   "author": "Tyler J Cvetan",
@@ -18,6 +18,7 @@
     "packages/app-core"
   ],
   "scripts": {
+    "build": "npm run build -ws",
     "lint": "npm run lint -ws",
     "lint:fix": "npm run lint:fix -ws",
     "prepare": "husky",
